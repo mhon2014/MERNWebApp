@@ -1,0 +1,76 @@
+.navigationBar{
+    /* padding-left:4%; */
+    /* padding-right:4%; */
+    /* display: flex; */
+    top: 0px;
+    position: fixed;
+    background: #141414;
+    
+    /* background: linear-gradient(to bottom,rgba(0,0,0,.7) 10%,rgba(0,0,0,0)); */
+    /* #ffa903 */
+    width: 100vw;
+    font-size: 14px;
+    /* flex-direction: row; */
+    z-index: 3;
+    /* height: 70px; */
+    
+}
+
+.navigationBar .container{
+    padding:0px 50px;
+    display: flex;
+    align-items: center;
+    /* flex-direction: row-reverse; */
+    justify-content: space-between;
+    /* align-items: center; */
+
+}
+.navigationBar .linksSection img{
+    height:25px;
+}
+
+/* .accountBar .profile{
+    margin-right: 1em;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    border:none;
+    border-radius: 3px;
+    line-height: normal;
+    padding: 9px 10px;
+    font-weight: 400;
+    font-size: 1rem;
+    background-color: #0e3fa9;
+} */
+
+/* .accountBar button{
+    margin: 1em;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    border:none;
+    border-radius: 3px;
+    line-height: normal;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    background-color: #0e3fa9;
+} */
+
+/* 
+.accountBar a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 3px;
+    line-height: normal;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    background-color: #0e3fa9;
+} */
+
+/* .navigationBar img{
+    position: relative;
+    cursor: pointer;
+} */

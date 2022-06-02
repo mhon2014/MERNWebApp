@@ -1,0 +1,26 @@
+.movieContainer{
+    /* height: 100vh; */
+    margin-top: 70px;
+    /* width: 100vw; */
+}
+.genreContainer{
+    padding-left:4%;
+    /* margin: 3vw 0; */
+    /* height: 200px; */
+    /* overflow:hidden; */
+}
+
+.genreContainer .genreLabel {
+    font-size: 1.4vw;
+    font-weight: 700;
+    color: #fff;
+}
+
+.movieSlide{
+    position: relative;
+    width: 100%;
+    /* overflow-x: hidden; */
+    /* overflow-y: visible; */
+    /* white-space: nowrap; */
+    /* overflow: hidden; */
+}

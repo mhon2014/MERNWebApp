@@ -1,0 +1,156 @@
+.boxBackground{
+    display: flex;
+    background: rgba(0, 0, 0, 0.5);
+    /* opacity: 0.7; */
+    position: fixed;
+    overflow-y:scroll;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    /* position: absolute; */
+    justify-content: center;
+
+
+    /* width: 100vw;
+    height: 100vh; 
+    width: 500px;
+    height: 500px;
+    top:0;
+    left: 0;
+    background-color: rgba(2, 2, 2, 0.5);  */
+    z-index: 5;
+    /* opacity: 0.5; */
+}
+
+
+.container{
+    width: 850px;
+    top: 345px;
+    left: auto;
+    margin:auto;
+    transform-origin: center top;
+    transform: translateX(0px) translateY(calc(-345px + 2em)) scaleX(1) scaleY(1) translateZ(0px);
+    /* transform: translateX(0px) translateY(calc(-345px + 2em)) scaleX(1) scaleY(1) translateZ(0px); */
+    box-shadow: rgb(0 0 0 / 75%) 0px 3px 10px;
+    z-index: 12;
+    /* opacity: 1; */
+    margin-bottom: 2em;
+    min-width: 850px;
+    position: absolute;
+    font-size: 16px;
+    will-change: transform;
+    position: absolute;
+    color: #fff;
+    background-color: transparent;
+
+}
+
+.movieCover{
+    position: relative;
+    background: #000;
+    height: 150%;
+}
+
+.movieCover .gradient{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0%;
+    background: linear-gradient(to top,#181818,transparent 50%)
+}
+
+.container img{
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.title{
+    /* margin-bottom: 5em; */
+}
+
+.icons{
+    margin-top: 5px;
+}
+
+.container .icon{
+    cursor:pointer;
+}
+
+.container .close{
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+    padding: 0px;
+    margin: 0;
+    position:absolute;
+    top:-17px;
+    right:-17px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.container .movieTitle{
+    font-size: 3em;
+    font-weight: 700;
+    position: absolute;
+    width: 40%;
+    bottom: 0%;
+    left: 1em;
+    word-wrap: normal;
+}
+
+
+.topLine {
+    display: flex;
+    flex-direction: row;
+}
+
+.topLine div{
+    margin-right:1em;
+}
+
+.plot{
+    margin: 1em 0;
+}
+
+.left{
+    margin-right: 1em;
+}
+
+.right div{
+    margin:1em 0;
+}
+
+.right span{
+    color: #777
+}
+
+
+
+.container .movieInfoBox{
+    padding: 3em;
+    color: #fff;
+    background-color: #181818;
+    display: block;
+    position: relative;
+}
+
+.container .additionalDescription{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2em;
+    /* grid-template-columns: minmax(0,2fr) minmax(0,1fr); */
+}
+
+/* .container input, textarea{
+    border: 1px solid #646464;
+    border-radius: 5px;
+} */
+

@@ -1,0 +1,93 @@
+.signInForm{
+    box-sizing:border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
+    
+    background-color:rgba(0,0,0,.75);
+    /* background-color: #000; */
+    /* opacity: 50%; */
+    margin: auto;
+    border-radius: 4px;
+    min-height: 450px;
+    max-width: 450px;
+    padding: 60px 68px;
+    /* display: flex;
+    flex-direction: column; */
+    /* margin:auto */
+}
+
+.formBox{
+    display: flex;
+    flex-direction: column;
+}
+
+.formBox form{
+    /* display: flex; */
+    justify-content: center;
+}
+
+.inputFields label{
+    /* position: absolute; */
+    color:#8c8c8c;
+    font-size: 16px;
+}
+
+.formBox input{
+    box-sizing:border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
+    
+    
+    border: none;
+    background:#333;
+    padding: 16px 20px 0;
+    border-radius: 4px;
+    height: 50px;
+    /* margin: auto; */
+    width: 100%;
+    font-size: 16px;
+}
+
+.formBox input:focus{
+    color: #fff;
+    outline: none;
+}
+.signInForm div{
+    padding-bottom: 16px
+}
+
+.signInForm h1{
+    margin-bottom: 28px
+}
+
+.formBox button{
+    cursor: pointer;
+    border:none;
+    /* color: #fff; */
+    color: #ffa903;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 16px;
+    margin: 24px 0 12px;
+    background-color: #0e3fa9;
+    /* outline: 1px solid #ffa903; */
+    /* outline-offset: -10px; */
+    width: 100%;
+}
+
+.formButton{
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    /* color: #fff; */
+    color: #ffa903;
+    border-radius: 3px;
+    line-height: normal;
+    padding: 16px;
+    font-weight: 700;
+    font-size: 1rem;
+    background-color: #0e3fa9;
+    /* outline: 1px solid #ffa903; */
+    /* outline-offset: -10px; */
+}
