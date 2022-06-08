@@ -9,4 +9,4 @@ App features interactive hover, user regristation and login, and  allows logged 
 
 ![Web preview](/Preview2.png)
 
-![Web preview](/Preview2.png)
+![Web preview](/Preview3.png)
